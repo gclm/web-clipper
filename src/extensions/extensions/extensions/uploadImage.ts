@@ -33,7 +33,13 @@ export default new ToolExtension(
 
         for (let image of images) {
           try {
-            const url = await imageService!.uploadImageUrl(image);
+            console.log('原始image: ', image);
+            let newImage = image;
+            if (newImage.includes('csdnimg.cn')) {
+              newImage = newImage.substring(0, newImage.indexOf('?'));
+              console.log('修订后image: ', newImage);
+            }
+            const url = await imageService!.uploadImageUrl(newImage);
             foo = foo.replace(image, url);
             successCount++;
           } catch (_error) {
