@@ -1,14 +1,28 @@
-## Sponsors
+## 1.37.3
 
-### 感谢 [FlowUs 息流](https://flowus.cn/product) 赞助本项目
+`2024-06-26`
 
-FlowUs 息流是一款为个人和团队打造的新一代知识管理与协作平台，以云端空间承载，配合灵活的信息搭建能力，为用户在工作、生活、学习中提供更多效率与专注。
+- Fix 修复 FlowUS 绑定错误
 
-产品覆盖移动及 PC 端全生态链条，依托 FlowUs 息流，团队和个人用户能够实现项目管理、知识库、企业网盘、内部工作流等一站式解决方案。
+## 1.37.2
 
-**官网**: [https://flowus.cn/product](https://flowus.cn/product)
+`2024-06-24`
 
-![FlowUs](https://github.com/webclipper/web-clipper/blob/master/flowus.png?raw=true)
+- 修复保存到 Notion 后格式错误的问题
+
+## 1.37.1
+
+`2024-06-22`
+
+- 迁移到 Manifest V3
+- 支持腾讯云对象存储作为图床
+
+## 1.36.0
+
+`2023-11-14`
+
+- 新增德语
+- 修复无法保存到 wolai 的问题
 
 ## 1.35.0
 

@@ -11,8 +11,8 @@ export default (): ServiceMeta => {
     homePage: 'https://flowus.cn/',
     service: Service,
     permission: {
-      origins: [`${flowusOrigin}/*`],
-      permissions: ['cookies', 'webRequest', 'webRequestBlocking'],
+      origins: [`${flowusOrigin}/*`, '<all_urls>'],
+      permissions: ['cookies'],
     },
   };
 };
